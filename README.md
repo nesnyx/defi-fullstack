@@ -32,44 +32,55 @@ Based on the repository's language statistics, the following technologies are li
 * A development wallet (e.g., MetaMask)
 * (Any other necessary tools like Truffle, Hardhat, Foundry, etc.)
 
+
 ### Installation & Setup
 
 **1. Clone the repository:**
 ```bash
 git clone [https://github.com/nesnyx/defi-fullstack.git](https://github.com/nesnyx/defi-fullstack.git)
 cd defi-fullstack
+```
 
 
 **2. Backend Setup:**
 
+```bash
 cd backend
-npm install # or yarn install
+npm install  or yarn install
 # (Add any other specific setup steps for the backend, e.g., environment variables, contract compilation, and deployment)
 # Example:
 # cp .env.example .env
 # npx hardhat compile
 # npx hardhat run scripts/deploy.js --network localhost
 
+```
 
 **3. Frontend Setup:**
 
+```bash
 cd ../frontend
 npm install # or yarn install
 # (Add any other specific setup steps for the frontend, e.g., environment variables)
 # Example:
 # cp .env.example .env
 
+```
+
 
 Running the Application
 1. Start the backend (if applicable):
+```bash
 cd backend
 # (Command to start your backend server, e.g., npm run dev, npx hardhat node)
+```
 
 
 2. Start the frontend:
+```bash
 cd ../frontend
 npm start # or yarn start
 Open your browser and navigate to http://localhost:3000 (or the appropriate port).
+```
 
 Usage
 (Explain how to use the application. What are the main features? Are there any example workflows?)
@@ -81,4 +92,3 @@ License
 (Specify the license for your project, e.g., MIT License. If you haven't chosen one, you might want to add one.)
 
 Note to the repository owner: Please update this README with more specific details about your project's purpose, a more detailed breakdown of the technologies used, accurate setup and run instructions, and any other relevant information that would help users and potential contributors understand and use your project.
-
